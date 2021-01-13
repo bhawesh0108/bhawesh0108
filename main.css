@@ -1,0 +1,463 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#header{
+  display: flex;
+  flex-direction: column;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 781px;
+    background: #F8F9FB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#logo{
+  position: relative;
+  top: 58px;
+  left: 80px;
+  width: 197px;
+  height: 32px;
+  background: transparent url('img/DREAMJOB..png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#nav{
+  display: flex;
+  flex-direction: row;
+
+}
+#nav1{
+  position: relative;
+  top: 65px;
+left: 120px;
+width: 50px;
+height: 18px;
+color: var(--unnamed-color-181818);
+text-align: left;
+font: normal normal normal 18px/22px Inter;
+letter-spacing: 0.72px;
+color: #181818;
+opacity: 1;
+text-decoration: none;
+}
+#nav2{
+  position: relative;
+  top: 65px;
+left: 150px;
+width: 107px;
+height: 18px;
+color: var(--unnamed-color-181818);
+text-align: left;
+font: normal normal normal 18px/22px Inter;
+letter-spacing: 0.72px;
+color: #181818;
+opacity: 1;
+text-decoration: none;
+}
+#nav3{
+  position: relative;
+  top: 65px;
+left: 180px;
+width: 92px;
+height: 18px;
+color: var(--unnamed-color-181818);
+text-align: left;
+font: normal normal normal 18px/22px Inter;
+letter-spacing: 0.72px;
+color: #181818;
+opacity: 1;
+text-decoration: none;
+}
+#nav4{
+  position: relative;
+  top: 65px;
+left: 210px;
+width: 96px;
+height: 18px;
+color: var(--unnamed-color-181818);
+text-align: left;
+font: normal normal normal 18px/22px Inter;
+letter-spacing: 0.72px;
+color: #181818;
+opacity: 1;
+text-decoration: none;
+}
+#sign{
+  position: relative;
+  top: 42px;
+left: 450px;
+width: 156px;
+height: 60px;
+border: 2px solid #0F47C0;
+border-radius: 32px;
+opacity: 1;
+}
+#trial{
+  position: relative;
+  top: 43px;
+left: 480px;
+width: 162px;
+height: 59px;
+background: #0F47C0 0% 0% no-repeat padding-box;
+border-radius: 32px;
+opacity: 1;
+}
+#headline{
+  display:flex;
+  flex-direction: column;
+}
+#below-nav{
+  display: flex;
+  flex-direction: row;
+}
+#head1{
+  position: relative;
+  top: 100px;
+left: 150px;
+width: 854px;
+height: 220px;
+color: var(--unnamed-color-181818);
+text-align: left;
+font: normal normal bold 70px/80px Inter;
+letter-spacing: 1.2px;
+color: #181818;
+opacity: 1;
+}
+#head2{
+  position: relative;
+  top: 70px;
+left: 150px;
+width: 679px;
+height: 62px;
+text-align: left;
+font: normal normal normal 20px/30px Inter;
+letter-spacing: 0.20px;
+color: #747474;
+opacity: 1;
+}
+#head3{
+  position: relative;
+  top: 100px;
+left: 150px;
+width: 198px;
+height: 60px;
+background: #1C2333 0% 0% no-repeat padding-box;
+border-radius: 52px;
+opacity: 1;
+}
+#girl{
+  position: relative;
+  top: 30px;
+  right:60px;
+width: 500px;
+height: 600px;
+background: transparent url('img/1920.png') 0% 0% no-repeat padding-box;
+
+opacity: 1;
+z-index: 1;
+}
+#sponsers{
+  position: relative;
+  bottom: 60px;
+left: 255px;
+width: 900px;
+height: 180px;
+background: transparent url('img/Rectangle 527.png') 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 80px #7474741A;
+border-radius: 20px;
+opacity:20;
+z-index: 20;
+}
+#spo{
+  position: relative;
+ top:50px;
+ left:100px;
+width: 700px;
+height: 100px;
+background: transparent url('img/Group 5999.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+#above-head{
+  display: flex;
+  flex-direction: column;
+}
+#categories{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+  color: var(--unnamed-color-181818);
+text-align: center;
+font: normal normal bold 20px/42px Inter;
+letter-spacing: 0.84px;
+color: #181818;
+opacity: 1;
+}
+#cat{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left:300px;
+  top:40px;
+}
+#cat1{
+  display: flex;
+  flex-direction: row;
+}
+#cat2{
+  display: flex;
+  flex-direction: row;
+}
+#cat3{
+  display: none;
+  
+}
+.card{ 
+  display: flex;
+  flex-direction: column;
+  
+  width: 250px;
+height: 228px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 15px 20px #7474741A;
+border-radius: 20px;
+opacity: 1;
+margin:20px;
+transition: transform .5s;
+}
+.card:hover{
+  transform: scale(1.2);
+}
+ #catg1 .card-img{
+  height:70px;
+  width:70px;
+  background-color: skyblue;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card1.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+.card-heads{
+  position: relative;
+  top:15px;
+  color: var(--unnamed-color-181818);
+text-align: left;
+}
+ .card-para{
+  position: relative;
+  top:15px;
+  text-align: left;
+line-height: 23px;
+letter-spacing: 0.4px;
+color: #747474;
+opacity: 1;
+font-size: 12px;
+}
+#catg2 .card-img{
+  height:70px;
+  width:70px;
+  background-color: pink;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card2.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg3 .card-img{
+  height:70px;
+  width:70px;
+  background-color: orange;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card3.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg4 .card-img{
+  height:70px;
+  width:70px;
+  background-color: yellow;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card4.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg5 .card-img{
+  height:70px;
+  width:70px;
+  background-color: skyblue;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card5.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg6 .card-img{
+  height:70px;
+  width:70px;
+  background-color: pink;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card6.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg7 .card-img{
+  height:70px;
+  width:70px;
+  background-color: pink;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card1.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg8 .card-img{
+  height:70px;
+  width:70px;
+  background-color: yellow;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card2.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#catg9 .card-img{
+  height:70px;
+  width:70px;
+  background-color: skyblue;
+  border-radius: 20px;
+opacity: 1;
+background-image: url("card3.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain cover;
+
+}
+#show-button{
+  position: relative;
+  top:40px;
+  left:500px;
+  border-radius: 52px;
+opacity: 1;
+width: 294px;
+height: 42px;
+}
+#boost{
+ display: flex;
+ flex-direction: row;
+ position: relative;
+ top:150px;
+ background-color: #F6F7F9;
+ height:600px;
+}
+#boost-data{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top:150px;
+}
+#boost-img{
+     
+opacity: 1;
+width: 570px;
+height: 434px;
+position: relative;
+left:180px;
+top:100px;
+}
+#boost-head{
+   position: relative;
+   left:200px;
+}#boost-para{
+  position: relative;
+  left:200px;
+  top:30px;
+}
+#boost-button{
+  position: relative;
+  left:200px;
+  top:70px;
+
+}
+#jobseeker{
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  top:220px;
+}
+#cand{
+  height:400px;
+  width:400px;
+  border-radius: 50%;
+  background-image: url('emp1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover,contain;
+  position: relative;
+  left:100px;
+}
+#cand-info{
+  position: relative;
+  left:300px;
+}
+#cand-para{
+  position: relative;
+  top:20px;
+  color: #747474;
+opacity: 1;
+}
+#cand-name{
+  position: relative;
+  top:30px;
+}
+#cand-name p{
+  color: #181818;;
+}
+#arrow{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top:25px;
+}
+#right{
+  position: relative;
+  left:20px;
+}
+#contact{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  position: relative;
+  top:600px;
+  width:2800px;
+  height:200px;
+  right:300px;
+}
+.cont{
+  display:flex;
+  flex-direction: column;
+  color:white;
+}
+
